@@ -1,21 +1,21 @@
 # SQL Project: Data Analysis for Zomato  
 
-## 📌 Overview  
+##  Overview  
 This project demonstrates my SQL problem-solving skills through the analysis of Zomato data, a popular food and restaurant platform.  
 It involves setting up the database, importing data, cleaning null values, and solving a variety of business problems using SQL queries.  
 
-## 🗂️ Project Structure  
+##  Project Structure  
 -**Database Setup**: Created zomato_db with required tables.
 -**Data Import**: Inserted sample dataset into the database.
 -**Data Cleaning**: Handled null values and ensured data integrity.
 -**Business Queries**: Solved 20 real-world business queries such as restaurant insights, cuisine trends, cost analysis, and ratings distribution using SQL.
 
-## 🛠️ Database Setup  
+##  Database Setup  
 ```sql
 CREATE DATABASE zomato_db;
 ```
 
-### 1️⃣ Dropping Existing Tables
+### 1 Dropping Existing Tables
 ```sql
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS customers;
@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS restaurants;
 DROP TABLE IF EXISTS riders;
 DROP TABLE IF EXISTS deliveries;
 ```
-###  2️⃣ Creating Tables
+###  2 Creating Tables
 ```sql
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
@@ -73,12 +73,12 @@ CREATE TABLE deliveries (
 );
 ```
 
-## 🍴 Food Delivery Business SQL Case Study
+##  Food Delivery Business SQL Case Study
 
 This repository contains SQL queries that solve a variety of business problems for a food delivery platform.  
 The queries cover **customer analytics, restaurant performance, rider efficiency, and sales trends**.  
 
-## 📌 Business Problems Solved
+##  Business Problems Solved
 
 ### 1. Most Frequently Ordered Dishes
 **Question:** Find the top 5 most frequently ordered dishes by a specific customer in the last 1 year.
@@ -398,9 +398,9 @@ ORDER BY 1,2
 
 ### 14. Rider Rating Analysis
 **Question:** Assign riders ratings based on delivery speed:
-  - ⭐⭐⭐⭐⭐ → < 15 minutes  
-  - ⭐⭐⭐⭐ → 15–20 minutes  
-  - ⭐⭐⭐ → > 20 minutes  
+  - **5-Star** → < 15 minutes  
+  - **4-Star** → 15–20 minutes  
+  - **3-Star**→ > 20 minutes  
 ```sql
 SELECT 
     rider_id,
@@ -552,7 +552,7 @@ ON o.restaurant_id = r.restaurant_id
 GROUP BY 1
 ```
 
-## 🚀 Key Learnings  
+##  Key Learnings  
 - Designing relational databases with constraints.  
 - Writing optimized SQL queries with **joins, aggregations, window functions, and CTEs**.  
 - Handling NULL values and ensuring data integrity.  
