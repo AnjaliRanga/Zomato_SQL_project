@@ -15,7 +15,7 @@ It involves setting up the database, importing data, cleaning null values, and s
 CREATE DATABASE zomato_db;
 ```
 
-### 1 Dropping Existing Tables
+### 1. Dropping Existing Tables
 ```sql
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS customers;
@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS restaurants;
 DROP TABLE IF EXISTS riders;
 DROP TABLE IF EXISTS deliveries;
 ```
-###  2 Creating Tables
+### 2. Creating Tables
 ```sql
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
