@@ -5,10 +5,10 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 It involves setting up the database, importing data, cleaning null values, and solving a variety of business problems using SQL queries.  
 
 ## 🗂️ Project Structure  
--**Database Setup: Created zomato_db with required tables.
--**Data Import: Inserted sample dataset into the database.
--**Data Cleaning: Handled null values and ensured data integrity.
--**Business Queries: Solved 20 real-world business queries such as restaurant insights, cuisine trends, cost analysis, and ratings distribution using SQL.
+-**Database Setup**: Created zomato_db with required tables.
+-**Data Import**: Inserted sample dataset into the database.
+-**Data Cleaning**: Handled null values and ensured data integrity.
+-**Business Queries**: Solved 20 real-world business queries such as restaurant insights, cuisine trends, cost analysis, and ratings distribution using SQL.
 
 ## 🛠️ Database Setup  
 ```sql
